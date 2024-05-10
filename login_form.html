@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login | ISA 2021 Class</title>
+    <meta name="author" content="Takudzwa Admire Svosve" />
+    <link rel="icon" href="assets/images/logo/HIT_logo.png" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/icons/fontawesome-free-6.0.0-web/css/fontawesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/icons/fontawesome-free-6.0.0-web/css/all.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css" />
+  </head>
+
+  <body class="forms">
+    <div class="form">
+      <form action="" method="" id="login_form">
+        <img src="assets/images/logo/HIT_logo.png" width="50" height="50" />
+        <div class="button">
+          <a href="login_form.html">Login</a>
+          <a href="signup_form.html" id="sign_up_button" onclick="active_f()"
+            >Sign Up</a
+          >
+        </div>
+        <div class="details">
+          <label for="user_name">Username</label>
+          <i class="fa-regular fa-user"></i
+          ><input
+            type="text"
+            name="user_name"
+            placeholder="Username"
+            maxlength="15"
+            autofocus
+          />
+        </div>
+        <div class="details">
+          <label for="pass_word">Password</label>
+          <i class="fa-solid fa-key"></i
+          ><input
+            type="password"
+            name="pass_word"
+            placeholder="Password"
+            maxlength="15"
+            required
+          />
+        </div>
+        <div class="middle">
+          <button
+            type="submit"
+            form="login_form"
+            formaction=""
+            name=""
+            value="Submit"
+          >
+            <a href="home.html">SUBMIT</a></button
+          ><br />
+          <a href="#" id="forgot">FORGOT YOUR PASSWORD?</a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
